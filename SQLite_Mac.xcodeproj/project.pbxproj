@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEEDE1F317BBC191008EB3C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */; };
+		BEEDE1FD17BBC191008EB3C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE1FB17BBC191008EB3C3 /* InfoPlist.strings */; };
+		BEEDE1FF17BBC191008EB3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE1FE17BBC191008EB3C3 /* main.m */; };
+		BEEDE20317BBC191008EB3C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE20117BBC191008EB3C3 /* Credits.rtf */; };
+		BEEDE20617BBC191008EB3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE20517BBC191008EB3C3 /* AppDelegate.m */; };
+		BEEDE20917BBC192008EB3C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE20717BBC192008EB3C3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BEEDE1EF17BBC191008EB3C3 /* SQLite_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BEEDE1F517BBC191008EB3C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BEEDE1F617BBC191008EB3C3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEEDE1F717BBC191008EB3C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEEDE1FA17BBC191008EB3C3 /* SQLite_Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLite_Mac-Info.plist"; sourceTree = "<group>"; };
+		BEEDE1FC17BBC191008EB3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEEDE1FE17BBC191008EB3C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEEDE20017BBC191008EB3C3 /* SQLite_Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLite_Mac-Prefix.pch"; sourceTree = "<group>"; };
+		BEEDE20217BBC191008EB3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BEEDE20417BBC191008EB3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEEDE20517BBC191008EB3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEEDE20817BBC192008EB3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEEDE1EC17BBC191008EB3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEDE1F317BBC191008EB3C3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEEDE1E617BBC191008EB3C3 = {
+			isa = PBXGroup;
+			children = (
+				BEEDE1F817BBC191008EB3C3 /* SQLite_Mac */,
+				BEEDE1F117BBC191008EB3C3 /* Frameworks */,
+				BEEDE1F017BBC191008EB3C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEEDE1F017BBC191008EB3C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDE1EF17BBC191008EB3C3 /* SQLite_Mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEEDE1F117BBC191008EB3C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */,
+				BEEDE1F417BBC191008EB3C3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEEDE1F417BBC191008EB3C3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDE1F517BBC191008EB3C3 /* AppKit.framework */,
+				BEEDE1F617BBC191008EB3C3 /* CoreData.framework */,
+				BEEDE1F717BBC191008EB3C3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BEEDE1F817BBC191008EB3C3 /* SQLite_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDE20417BBC191008EB3C3 /* AppDelegate.h */,
+				BEEDE20517BBC191008EB3C3 /* AppDelegate.m */,
+				BEEDE20717BBC192008EB3C3 /* MainMenu.xib */,
+				BEEDE1F917BBC191008EB3C3 /* Supporting Files */,
+			);
+			path = SQLite_Mac;
+			sourceTree = "<group>";
+		};
+		BEEDE1F917BBC191008EB3C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEEDE1FA17BBC191008EB3C3 /* SQLite_Mac-Info.plist */,
+				BEEDE1FB17BBC191008EB3C3 /* InfoPlist.strings */,
+				BEEDE1FE17BBC191008EB3C3 /* main.m */,
+				BEEDE20017BBC191008EB3C3 /* SQLite_Mac-Prefix.pch */,
+				BEEDE20117BBC191008EB3C3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEEDE1EE17BBC191008EB3C3 /* SQLite_Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEEDE20C17BBC192008EB3C3 /* Build configuration list for PBXNativeTarget "SQLite_Mac" */;
+			buildPhases = (
+				BEEDE1EB17BBC191008EB3C3 /* Sources */,
+				BEEDE1EC17BBC191008EB3C3 /* Frameworks */,
+				BEEDE1ED17BBC191008EB3C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite_Mac;
+			productName = SQLite_Mac;
+			productReference = BEEDE1EF17BBC191008EB3C3 /* SQLite_Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEEDE1E717BBC191008EB3C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Will Han";
+			};
+			buildConfigurationList = BEEDE1EA17BBC191008EB3C3 /* Build configuration list for PBXProject "SQLite_Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BEEDE1E617BBC191008EB3C3;
+			productRefGroup = BEEDE1F017BBC191008EB3C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEEDE1EE17BBC191008EB3C3 /* SQLite_Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEEDE1ED17BBC191008EB3C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEDE1FD17BBC191008EB3C3 /* InfoPlist.strings in Resources */,
+				BEEDE20317BBC191008EB3C3 /* Credits.rtf in Resources */,
+				BEEDE20917BBC192008EB3C3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEEDE1EB17BBC191008EB3C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEDE1FF17BBC191008EB3C3 /* main.m in Sources */,
+				BEEDE20617BBC191008EB3C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEEDE1FB17BBC191008EB3C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEDE1FC17BBC191008EB3C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEEDE20117BBC191008EB3C3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEDE20217BBC191008EB3C3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BEEDE20717BBC192008EB3C3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEEDE20817BBC192008EB3C3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEEDE20A17BBC192008EB3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BEEDE20B17BBC192008EB3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEEDE20D17BBC192008EB3C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLite_Mac/SQLite_Mac-Prefix.pch";
+				INFOPLIST_FILE = "SQLite_Mac/SQLite_Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEEDE20E17BBC192008EB3C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLite_Mac/SQLite_Mac-Prefix.pch";
+				INFOPLIST_FILE = "SQLite_Mac/SQLite_Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEEDE1EA17BBC191008EB3C3 /* Build configuration list for PBXProject "SQLite_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDE20A17BBC192008EB3C3 /* Debug */,
+				BEEDE20B17BBC192008EB3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEEDE20C17BBC192008EB3C3 /* Build configuration list for PBXNativeTarget "SQLite_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEEDE20D17BBC192008EB3C3 /* Debug */,
+				BEEDE20E17BBC192008EB3C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEEDE1E717BBC191008EB3C3 /* Project object */;
+}
