@@ -1,0 +1,12 @@
+
+*.xcuserstate
+
+*.xcsettings
+
+*.xcbkptlist
+
+*.xcscheme
+
+SQLite_Mac.xcodeproj/xcuserdata/Will.xcuserdatad/xcschemes/xcschememanagement.plist
+
+SQLite_Mac.xcodeproj/xcuserdata/hanwei.xcuserdatad/xcschemes/xcschememanagement.plist

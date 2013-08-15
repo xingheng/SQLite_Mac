@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6875CE0217BC7BF700E12583 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875CE0117BC7BF600E12583 /* Person.m */; };
 		BEEDE1F317BBC191008EB3C3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */; };
 		BEEDE1FD17BBC191008EB3C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE1FB17BBC191008EB3C3 /* InfoPlist.strings */; };
 		BEEDE1FF17BBC191008EB3C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE1FE17BBC191008EB3C3 /* main.m */; };
 		BEEDE20317BBC191008EB3C3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE20117BBC191008EB3C3 /* Credits.rtf */; };
 		BEEDE20617BBC191008EB3C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE20517BBC191008EB3C3 /* AppDelegate.m */; };
 		BEEDE20917BBC192008EB3C3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE20717BBC192008EB3C3 /* MainMenu.xib */; };
+		BEEDE21117BBC1C4008EB3C3 /* MainWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE21017BBC1C4008EB3C3 /* MainWindowDelegate.m */; };
+		BEEDE21317BBC5FF008EB3C3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEDE21217BBC5FF008EB3C3 /* libsqlite3.0.dylib */; };
+		BEEDE21617BBC65D008EB3C3 /* person.db in Resources */ = {isa = PBXBuildFile; fileRef = BEEDE21417BBC613008EB3C3 /* person.db */; };
+		BEEDE21917BBC728008EB3C3 /* MyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE21817BBC728008EB3C3 /* MyTableView.m */; };
+		BEEDE21C17BBC957008EB3C3 /* DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEDE21B17BBC957008EB3C3 /* DBOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6875CE0017BC7BF600E12583 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6875CE0117BC7BF600E12583 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		BEEDE1EF17BBC191008EB3C3 /* SQLite_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BEEDE1F517BBC191008EB3C3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -29,6 +37,14 @@
 		BEEDE20417BBC191008EB3C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEEDE20517BBC191008EB3C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BEEDE20817BBC192008EB3C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BEEDE20F17BBC1C4008EB3C3 /* MainWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowDelegate.h; sourceTree = "<group>"; };
+		BEEDE21017BBC1C4008EB3C3 /* MainWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowDelegate.m; sourceTree = "<group>"; };
+		BEEDE21217BBC5FF008EB3C3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = ../../../../../../../usr/lib/libsqlite3.0.dylib; sourceTree = "<group>"; };
+		BEEDE21417BBC613008EB3C3 /* person.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = person.db; sourceTree = "<group>"; };
+		BEEDE21717BBC728008EB3C3 /* MyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableView.h; sourceTree = "<group>"; };
+		BEEDE21817BBC728008EB3C3 /* MyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableView.m; sourceTree = "<group>"; };
+		BEEDE21A17BBC957008EB3C3 /* DBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBOperation.h; sourceTree = "<group>"; };
+		BEEDE21B17BBC957008EB3C3 /* DBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEDE1F317BBC191008EB3C3 /* Cocoa.framework in Frameworks */,
+				BEEDE21317BBC5FF008EB3C3 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 		BEEDE1F117BBC191008EB3C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEEDE21217BBC5FF008EB3C3 /* libsqlite3.0.dylib */,
 				BEEDE1F217BBC191008EB3C3 /* Cocoa.framework */,
 				BEEDE1F417BBC191008EB3C3 /* Other Frameworks */,
 			);
@@ -86,6 +104,14 @@
 				BEEDE20517BBC191008EB3C3 /* AppDelegate.m */,
 				BEEDE20717BBC192008EB3C3 /* MainMenu.xib */,
 				BEEDE1F917BBC191008EB3C3 /* Supporting Files */,
+				BEEDE20F17BBC1C4008EB3C3 /* MainWindowDelegate.h */,
+				BEEDE21017BBC1C4008EB3C3 /* MainWindowDelegate.m */,
+				BEEDE21717BBC728008EB3C3 /* MyTableView.h */,
+				BEEDE21817BBC728008EB3C3 /* MyTableView.m */,
+				BEEDE21A17BBC957008EB3C3 /* DBOperation.h */,
+				BEEDE21B17BBC957008EB3C3 /* DBOperation.m */,
+				6875CE0017BC7BF600E12583 /* Person.h */,
+				6875CE0117BC7BF600E12583 /* Person.m */,
 			);
 			path = SQLite_Mac;
 			sourceTree = "<group>";
@@ -93,6 +119,7 @@
 		BEEDE1F917BBC191008EB3C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEEDE21417BBC613008EB3C3 /* person.db */,
 				BEEDE1FA17BBC191008EB3C3 /* SQLite_Mac-Info.plist */,
 				BEEDE1FB17BBC191008EB3C3 /* InfoPlist.strings */,
 				BEEDE1FE17BBC191008EB3C3 /* main.m */,
@@ -156,6 +183,7 @@
 				BEEDE1FD17BBC191008EB3C3 /* InfoPlist.strings in Resources */,
 				BEEDE20317BBC191008EB3C3 /* Credits.rtf in Resources */,
 				BEEDE20917BBC192008EB3C3 /* MainMenu.xib in Resources */,
+				BEEDE21617BBC65D008EB3C3 /* person.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +196,10 @@
 			files = (
 				BEEDE1FF17BBC191008EB3C3 /* main.m in Sources */,
 				BEEDE20617BBC191008EB3C3 /* AppDelegate.m in Sources */,
+				BEEDE21117BBC1C4008EB3C3 /* MainWindowDelegate.m in Sources */,
+				BEEDE21917BBC728008EB3C3 /* MyTableView.m in Sources */,
+				BEEDE21C17BBC957008EB3C3 /* DBOperation.m in Sources */,
+				6875CE0217BC7BF700E12583 /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +333,7 @@
 				BEEDE20E17BBC192008EB3C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
